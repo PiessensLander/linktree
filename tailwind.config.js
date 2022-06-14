@@ -1,5 +1,5 @@
 module.exports = {
-	content: require('fast-glob').sync(['.*.{html}']),
+	content: require('fast-glob').sync(['./dist/*.html']),
 	theme: {
 		extend: {},
 	},

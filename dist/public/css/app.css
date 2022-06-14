@@ -513,3 +513,219 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.container {
+  width: 100%;
+}
+@media (min-width: 640px) {
+
+  .container {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+
+  .container {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 1536px) {
+
+  .container {
+    max-width: 1536px;
+  }
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.mt-8 {
+  margin-top: 2rem;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+.mt-3 {
+  margin-top: 0.75rem;
+}
+.flex {
+  display: flex;
+}
+.w-full {
+  width: 100%;
+}
+.w-\[20px\] {
+  width: 20px;
+}
+.max-w-\[500px\] {
+  max-width: 500px;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+.gap-8 {
+  gap: 2rem;
+}
+.gap-6 {
+  gap: 1.5rem;
+}
+.gap-4 {
+  gap: 1rem;
+}
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+.rounded-md {
+  border-radius: 0.375rem;
+}
+.bg-sky-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(224 242 254 / var(--tw-bg-opacity));
+}
+.bg-\[\#000\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.bg-\[\#F40009\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 0 9 / var(--tw-bg-opacity));
+}
+.bg-\[\#0077b5\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 119 181 / var(--tw-bg-opacity));
+}
+.p-6 {
+  padding: 1.5rem;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-bold {
+  font-weight: 700;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+.text-blue-700 {
+  --tw-text-opacity: 1;
+  color: rgb(29 78 216 / var(--tw-text-opacity));
+}
+.text-stone-900 {
+  --tw-text-opacity: 1;
+  color: rgb(28 25 23 / var(--tw-text-opacity));
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-\[\#000\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+* {
+  box-sizing: border-box;
+  font-family: arboria, sans-serif;
+}
+
+.card__footer p {
+  position: relative;
+  will-change: padding-right;
+  transition: padding-right 0.3s ease;
+}
+.card__footer p::after {
+  opacity: 0;
+  content: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='7px' height='10px' viewBox='0 0 7 10' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 60.1 (88133) - https://sketch.com --%3E%3Ctitle%3Earrow%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cg id='Symbols' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' stroke-linecap='square'%3E%3Cg id='Artboard' transform='translate(-36.000000, -33.000000)' fill='%23000000' stroke='%23000000' stroke-width='1.6'%3E%3Cg id='arrow' transform='translate(38.241995, 38.241995) rotate(134.000000) translate(-38.241995, -38.241995) translate(35.241995, 35.241995)'%3E%3Cline x1='0.7875' y1='1.08333333' x2='0.7875' y2='5.75' id='Line'%3E%3C/line%3E%3Cline x1='5.691' y1='1.08333333' x2='0.7875' y2='1.08333333' id='Line' transform='translate(3.239250, 1.083333) scale(-1, 1) translate(-3.239250, -1.083333) '%3E%3C/line%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  width: 16px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-12px);
+  transition: opacity 0.3s ease;
+}
+.card:hover .card__footer p {
+  padding-right: 2.5rem;
+}
+.card:hover .card__footer p::after {
+  opacity: 1;
+}
+@media (min-width: 768px) {
+
+  .md\:w-\[500px\] {
+    width: 500px;
+  }
+}
+@media (min-width: 1024px) {
+
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}

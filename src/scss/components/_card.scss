@@ -1,0 +1,31 @@
+.card {
+	&__footer {
+		p {
+			position: relative;
+			will-change: padding-right;
+			transition: padding-right 0.3s ease;
+			&::after {
+				opacity: 0;
+				content: $chevron-right;
+				width: 16px;
+				height: 16px;
+				display: block;
+				position: absolute;
+				right: 0.5rem;
+				top: 50%;
+				transform: translateY(-12px);
+				transition: opacity 0.3s ease;
+			}
+		}
+	}
+	&:hover {
+		.card__footer {
+			p {
+				&::after {
+					opacity: 1;
+				}
+				padding-right: 2.5rem;
+			}
+		}
+	}
+}
