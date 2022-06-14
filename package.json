@@ -1,0 +1,31 @@
+{
+  "name": "linktree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiessensLander/linktree.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiessensLander/linktree/issues"
+  },
+  "homepage": "https://github.com/PiessensLander/linktree#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.49",
+    "mix-tailwindcss": "^1.3.0",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.52.3",
+    "sass-loader": "^12.6.0",
+    "tailwindcss": "^3.1.2"
+  },
+  "dependencies": {
+    "fast-glob": "^3.2.11"
+  }
+}
