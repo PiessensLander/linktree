@@ -2,11 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-	box-sizing: border-box;
-	font-family: arboria, sans-serif;
-}
-
 @import 'base/icons';
+@import 'base/global';
 
 @import 'components/card';
