@@ -1,6 +1,6 @@
 .card {
 	&__footer {
-		p {
+		.button {
 			position: relative;
 			will-change: padding-right;
 			transition: padding-right 0.3s ease;
@@ -20,7 +20,7 @@
 	}
 	&:hover {
 		.card__footer {
-			p {
+			.button {
 				&::after {
 					opacity: 1;
 				}
